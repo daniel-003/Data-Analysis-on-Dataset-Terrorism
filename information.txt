@@ -1,0 +1,35 @@
+Different types of analysis in data science are descriptive analysis, predictive analysis, prescriptive analysis, Exploratory data analysis, Qualitative analysis, quantitative analysis
+
+1.	Descriptive analysis: This involves analyzing data to describe and summarize key features and characteristics of a dataset, such as the mean, median, mode, standard deviation, and frequency distribution.
+2.	Exploratory data analysis: This involves using graphical and visual techniques to explore and discover patterns and relationships in a dataset, such as scatter plots, histograms, and box plots.
+3.	Predictive analysis: This involves using statistical or machine learning algorithms to build predictive models that can be used to forecast future trends or outcomes based on historical data.
+4.	Prescriptive analysis: This involves using mathematical optimization techniques to make recommendations or decisions that will optimize a particular outcome, such as maximizing profit or minimizing cost.
+5.	Qualitative analysis: This involves analyzing non-numerical data, such as text or images, to identify patterns or themes. Examples include content analysis and discourse analysis.
+6.	Quantitative analysis: This involves analyzing numerical data, such as survey responses or sales figures, to identify patterns or relationships. Examples include correlation analysis and regression analysis.
+
++EDA is applied to investigate the data and summarize the key insights. That is important characteristics.
+
++Why is exploratory data analysis important in data science? 
+So main purpose of EDA is to help look at data before making any assumptions. It can help identify errors, understand patterns within the data, detect outliers or find interesting relations among the variables. To do it we have different methods in it
+1.data cleaning
+2.data selection
+3.data exploration
+4.data representation and visualization
+
+++This code imports the necessary libraries for performing data analysis and visualization
+# Load the dataset
+
+++This code loads the Global Terrorism dataset in CSV format into a pandas dataframe called 'df'.
+
+# Clean and preprocess the data
+++This code cleans and preprocesses the data by removing duplicate rows and missing values, and selecting only relevant columns for analysis.
+
+
+# Visualize the data
+This code visualizes the data using various charts and graphs, including a line chart of the number of terrorist attacks by year, a bar chart of the number of terrorist attacks by region, and a histogram of the distribution of the number of deaths
+
+# Analyze the data
+This code analyzes the data by grouping the data by region and attack type, and plotting a stacked bar chart of the number of terrorist attacks.
+
+
+
